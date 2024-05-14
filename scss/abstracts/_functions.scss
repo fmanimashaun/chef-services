@@ -24,3 +24,11 @@
     @error '$sizes does not have that size!';
   }
 }
+
+@function ff($font-family) {
+  @if map.has-key($font-families, $font-family) {
+    @return map.get($font-families, $font-family);
+  } @else {
+    @error '$font-families does not have that font-family!';
+  }
+}

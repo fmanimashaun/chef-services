@@ -1,3 +1,32 @@
+@use "sass:string";
+
+/* import fonts */
+
+/* Abril Fatface font */
+@font-face {
+  $font-family: "Abril Fatface";
+  @debug string.quote($font-family);
+  font-family: string.quote($font-family);
+  src: url("/assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf") format('TrueType');
+  font-weight: 400;
+}
+
+/* Lato regular */
+@font-face {
+  $font-family: "Lato";
+  font-family: "#{$font-family}";
+  src: url("/assets/fonts/Lato/Lato-Regular.ttf") format('TrueType');
+  font-weight: 400;
+}
+
+/* Lato bold*/
+@font-face {
+  font-family: 'Lato';
+  src: url("/assets/fonts/Lato/Lato-Bold.ttf") format('TrueType');
+  font-weight: 600;
+}
+
+
 // breakpoints
 $breakpoints: (
   small: 30em,
@@ -9,10 +38,13 @@ $breakpoints: (
 $colors: (
   neutral: (
     100: #fff,
-    900: #1f3049,
+    200: #f8f8f8,
+    400: #5c5c5c,
+    900: #212121,
   ),
   primary: (
-    400: #0066ff,
+    400: #ff6635,
+    500: #dd4e11,
   ),
 );
 
@@ -27,15 +59,18 @@ $sizes: (
 );
 
 // typography
-$ff-sans: "Open Sans", sans-serif;
+$font-families: (
+  lato: '"Lato", sans-serif',
+  abril:' "Abril Fatface", serif',
+);
 
 $font-sizes: (
-  900: 3.75rem,
-  800: 3rem,
-  600: 1.5rem,
+  900: 5rem,
+  800: 3.75rem,
+  600: 1.6875rem,
   500: 1.3125rem,
   400: 1.125rem,
 );
 
 $fw-400: 400;
-$fw-700: 700;
+$fw-600: 600;

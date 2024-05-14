@@ -1,0 +1,7 @@
+@use "../abstracts" as *;
+
+@each $font-name, $font-value in $font-families {
+  .ff-#{$font-name} {
+    font-family: $font-value;
+  }
+}
