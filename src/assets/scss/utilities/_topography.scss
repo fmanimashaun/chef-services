@@ -1,0 +1,56 @@
+@use "../abstracts" as *;
+
+// font-size utilities
+@each $size-name, $size-value in $font-sizes {
+  .fs-#{$size-name} {
+    font-size: $size-value;
+  }
+}
+
+// font-family utilities
+.ff-base {
+  font-family: $ff-base;
+}
+
+.ff-accent {
+  font-family: $ff-accent;
+}
+
+// font-weight utilities
+.fw-regular {
+  font-weight: $fw-400;
+}
+
+.fw-bold {
+  font-weight: $fw-600;
+}
+
+// text-align utilities
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+// text-transform utilities
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
