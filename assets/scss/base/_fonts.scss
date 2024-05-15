@@ -2,7 +2,7 @@
 /* Abril Fatface font */
 @font-face {
   font-family: "Abril Fatface";
-  src: url("/src/assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf")
+  src: url("/assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf")
     format("TrueType");
   font-weight: 400;
 }
@@ -10,13 +10,13 @@
 /* Lato regular */
 @font-face {
   font-family: "Lato";
-  src: url("/src/assets/fonts/Lato/Lato-Regular.ttf") format("TrueType");
+  src: url("/assets/fonts/Lato/Lato-Regular.ttf") format("TrueType");
   font-weight: 400;
 }
 
 /* Lato bold*/
 @font-face {
   font-family: "Lato";
-  src: url("/src/assets/fonts/Lato/Lato-Bold.ttf") format("TrueType");
+  src: url("/assets/fonts/Lato/Lato-Bold.ttf") format("TrueType");
   font-weight: 600;
 }
