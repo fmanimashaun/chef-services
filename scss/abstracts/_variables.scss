@@ -27,7 +27,8 @@ $sizes: (
 );
 
 // typography
-$ff-sans: "Open Sans", sans-serif;
+$ff-base: "Lato", sans-serif;
+$ff-accent: "Abril Fatface", serif;
 
 $font-sizes: (
   900: 3.75rem,
@@ -35,7 +36,21 @@ $font-sizes: (
   600: 1.5rem,
   500: 1.3125rem,
   400: 1.125rem,
+  300: 1rem,
 );
 
 $fw-400: 400;
-$fw-700: 700;
+$fw-600: 600;
+
+
+$section-padding: 7rem;
+$hero-padding: 20rem;
+
+$container-inline-padding: 1rem;
+$container-max-width: 77.75rem;
+$container-max-width-wide: 100rem;
+
+$card-body-padding: 5rem;
+
+$grid-gap: 1.5rem;
+$flex-group-gap: 1rem;

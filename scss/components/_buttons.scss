@@ -1,18 +1,25 @@
-@use "../abstracts/" as *;
+@use "../abstracts" as *;
 
 .button {
-  padding: 1em 1.5em;
-  background-color: clr(primary, 400);
-  border: none;
-  color: clr(neutral, 100);
-  font-weight: $fw-700;
-  text-transform: uppercase;
+  display: inline-flex;
   cursor: pointer;
-  justify-self: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+  border: 0;
 
-  &:hover,
-  &:focus {
-    color: clr(neutral, 100);;
-    background-color: rgb(clr(neutral, 900), 0.8);
-  }
+  padding: 1.125em 2em;
+}
+
+.button[data-type="accent"] {
+  background-color: clr(primary, 400);
+  color: clr(neutral, 900);
+}
+
+.button[data-type="outline"] {
+  --outline-size: 5px;
+  background: transparent;
+  outline: var(--outline-size) solid clr(neutral, 100);
+  outline-offset: calc(var(--outline-size) * -1);
+  color: clr(neutral, 100);
 }

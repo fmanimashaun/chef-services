@@ -1,5 +1,21 @@
 @use "../abstracts" as *;
 
+// section padding
+.hero-section {
+  padding-block: $hero-padding;
+}
+
+.section {
+  padding-block: $section-padding;
+}
+
+
+
+// spacing utilities
+.margin-inline-auto {
+  margin-inline: auto;
+}
+
 @each $size-name, $size-value in $sizes {
   .margin {
     &-#{$size-name} {
@@ -48,3 +64,4 @@
     }
   }
 }
+

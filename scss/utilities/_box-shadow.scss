@@ -1,0 +1,6 @@
+@use "../abstracts" as *;
+
+// box shadow utilities
+.box-shadow-1 {
+  box-shadow: 0 0 0.75rem rgb(0 0 0 / 0.25);
+}
