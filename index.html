@@ -11,7 +11,31 @@
 </head>
 
 <body>
-	<h1 class="ff-accent">Sass website template</h1>
+
+	<header class="primary-header">
+		<img src="/assets/img/logo.svg" alt="Chef John Wellington" class="logo | margin-inline-auto">
+		<nav class="primary-navigation | margin-block-start-24">
+			<ul class="flex-group margin-inline-auto">
+				<li><a href="#about">About</a></li>
+				<li><a href="#meals">Meals</a></li>
+				<li><a href="#testimonials">Testimonials</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero | hero-section bg-neutral-900">
+			<div class="hero-content | margin-inline-auto">
+				<h1 class="fs-800 clr-neutral-100 text-center ff-accent">Homecooked meals<br>
+					delivered straight to your door</h1>
+				<div class="flex-group margin-inline-auto">
+					<button class="button" type="button" data-type="accent">place  order</button>
+					<button class="button" type="button" data-type="outline">place  order</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer></footer>
 
 	<script type="module" src="/main.js"></script>
 </body>

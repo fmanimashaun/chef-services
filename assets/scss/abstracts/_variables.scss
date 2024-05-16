@@ -25,8 +25,10 @@ $sizes: (
   12: 0.75rem,
   16: 1rem,
   20: 1.25rem,
+  24: 1.5rem,
   32: 2rem,
   36: 2.25rem,
+  48: 3rem,
 );
 
 // typography
@@ -34,9 +36,9 @@ $ff-base: "Lato", sans-serif;
 $ff-accent: "Abril Fatface", serif;
 
 $font-sizes: (
-  900: 3.75rem,
-  800: 3rem,
-  600: 1.5rem,
+  800: 5rem,
+  700: 3.75rem,
+  600: 1.6875rem,
   500: 1.3125rem,
   400: 1.125rem,
   300: 1rem,

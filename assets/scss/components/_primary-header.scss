@@ -1,0 +1,6 @@
+@use "../abstracts" as *;
+
+.primary-header {
+  position: absolute;
+  inset: size(24) 0 auto;
+}
