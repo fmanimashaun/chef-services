@@ -4,6 +4,10 @@
 @each $size-name, $size-value in $font-sizes {
   .fs-#{$size-name} {
     font-size: $size-value;
+
+    @if $size-name > 600 {
+      line-height: 1.1;
+    }
   }
 }
 
@@ -39,18 +43,18 @@
 }
 
 .text-justify {
-	text-align: justify;
+  text-align: justify;
 }
 
 // text-transform utilities
 .text-uppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .text-lowercase {
-	text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .text-capitalize {
-	text-transform: capitalize;
+  text-transform: capitalize;
 }

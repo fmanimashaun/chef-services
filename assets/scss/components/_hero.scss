@@ -1,0 +1,10 @@
+.hero {
+  background-image: image-set(
+    url("/assets/img/hero-bg.avif") type("image/avif"),
+    url("/assets/img/hero-bg.webp") type("image/webp"),
+    url("/assets/img/hero-bg.jpg") type("image/jpeg")
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
