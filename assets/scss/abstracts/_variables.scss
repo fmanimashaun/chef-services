@@ -36,11 +36,11 @@ $ff-base: "Lato", sans-serif;
 $ff-accent: "Abril Fatface", serif;
 
 $font-sizes: (
-  800: 5rem,
-  700: 3.75rem,
-  600: 1.6875rem,
-  500: 1.3125rem,
-  400: 1.125rem,
+  800: clamp(2.5rem, 1.8932rem + 2.589vi, 5rem),
+  700: clamp(2rem, 1.5752rem + 1.8123vi, 3.75rem),
+  600: clamp(1.125rem, 0.9885rem + 0.5825vi, 1.6875rem),
+  500: clamp(1rem, 0.9242rem + 0.3236vi, 1.3125rem),
+  400: clamp(1rem, 0.9697rem + 0.1294vi, 1.125rem),
   300: 1rem,
 );
 
@@ -53,7 +53,6 @@ $hero-padding: 20rem;
 
 $container-inline-padding: 1rem;
 $container-max-width: 77.75rem;
-$container-max-width-wide: 100rem;
 
 $card-body-padding: 5rem;
 

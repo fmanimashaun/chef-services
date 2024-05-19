@@ -2,13 +2,6 @@
 
 .container {
   --max-width: #{$container-max-width};
-  --padding: size(16);
-
-  max-width: var(--max-width);
-  padding-inline: var(--padding);
+  max-width: var(--max-width, #{$container-max-width});
   margin-inline: auto;
-}
-
-.container[data-type="wide"] {
-  --max-width: #{$container-max-width-wide};
 }

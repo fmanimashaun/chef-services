@@ -1,3 +1,5 @@
+@use "../abstracts" as *;
+
 .hero {
   background-image: image-set(
     url("/assets/img/hero-bg.avif") type("image/avif"),
@@ -7,4 +9,17 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  h1 {
+    max-inline-size: 22ch;
+    margin-inline: auto;
+
+    br {
+      display: none;
+
+      @include mq(medium) {
+        display: inline;
+      }
+    }
+  }
 }
