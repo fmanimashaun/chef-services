@@ -1,0 +1,13 @@
+@use "../abstracts" as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	border-radius: 0.5rem;
+
+  &__body {
+    padding: 2rem;
+    background-color: clr(neutral, 100);
+  }
+}

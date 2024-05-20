@@ -37,7 +37,7 @@
 
 		<section class="section" id="about">
 			<div class="container">
-				<div class="even-columns">
+				<div class="even-columns" style="--grid-gap: 3rem">
 					<div>
 						<picture>
 							<source srcset="/assets/img/about.avif" type="image/avif">
@@ -49,7 +49,7 @@
 					<div class="flow">
 						<header class="section-heading">
 							<h2 class="fs-700 clr-primary-500 ff-accent">This is a nice big heading</h2>
-							<p class="fs-600 clr-neutral-400 uppercase">This is a subhead which mentions some
+							<p class="fs-600 clr-neutral-400 text-uppercase">This is a subhead which mentions some
 								interesting things</p>
 						</header>
 						<p class="lead">This introduces the following text</p>
@@ -69,29 +69,29 @@
 			<div class="container" style="--max-width: 74.6875rem">
 				<header class="section-heading" data-decoration="true">
 					<h2 class="fs-700 clr-primary-500 ff-accent">This is a nice big heading</h2>
-					<p class="fs-600 uppercase">This is a subhead which mentions some interesting things</p>
+					<p class="fs-600 text-uppercase">This is a subhead which mentions some interesting things</p>
 				</header>
 				<div class="grid-auto-fit">
 					<div>
-						<h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+						<h3 class="lead">This is a subtitle</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim.
 							Quisque
 							pretium nisi a rhoncus posuere.</p>
 					</div>
 					<div>
-						<h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+						<h3 class="lead">This is a subtitle</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim.
 							Quisque
 							pretium nisi a rhoncus posuere.</p>
 					</div>
 					<div>
-						<h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+						<h3 class="lead">This is a subtitle</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim.
 							Quisque
 							pretium nisi a rhoncus posuere.</p>
 					</div>
 					<div>
-						<h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+						<h3 class="fs-500 fw-bold clr-neutral-900 text-uppercase">This is a subtitle</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim.
 							Quisque
 							pretium nisi a rhoncus posuere.</p>
@@ -100,14 +100,14 @@
 			</div>
 		</section>
 
-		<section class="section | clr-neutral-100" id="meals">
-			<div class="container" style="--max-width: 101.5625rem">
-				<header class="section-heading | text-center" data-decoration="true">
-					<h2 class="fs-700">This is a nice big headline</h2>
-					<p class="fs-600 uppercase">This is a subhead which mentions som interesting things</p>
+		<section class="meal-section section | meal-section clr-neutral-100 text-center" id="meals">
+			<div class="container">
+				<header class="section-heading" data-decoration="true">
+					<h2 class="fs-700 ff-accent">This is a nice big headline</h2>
+					<p class="fs-600 text-uppercase">This is a subhead which mentions som interesting things</p>
 				</header>
 
-				<div class="even-columns container">
+				<div class="even-columns">
 					<!-- column 1 -->
 					<div>
 						<figure class="interactive-figure">
@@ -118,8 +118,8 @@
 									alt="A nicely presented plate with a cooked peice of salmon on top of a bed of vegetables, with more vegetables on top of it">
 							</picture>
 							<figcaption>
-								<h3 class="fs-500 fw-bold uppercase">About this meal</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
+								<h3 class="fs-500 fw-bold text-uppercase">About this meal</h3>
+								<p class="fs-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
 									dignissim.</p>
 							</figcaption>
 						</figure>
@@ -135,8 +135,8 @@
 									alt="Several steak tacos on a table, along with several limes">
 							</picture>
 							<figcaption>
-								<h3 class="fs-500 fw-bold uppercase">About this meal</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
+								<h3 class="fs-500 fw-bold text-uppercase">About this meal</h3>
+								<p  class="fs-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
 									dignissim.</p>
 							</figcaption>
 						</figure>
@@ -151,8 +151,8 @@
 								<img src="/assets/img/meal-03.jpg" loading="lazy" alt="Clams being tossed in a pan">
 							</picture>
 							<figcaption>
-								<h3 class="fs-500 fw-bold uppercase">About this meal</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
+								<h3 class="fs-500 fw-bold text-uppercase">About this meal</h3>
+								<p  class="fs-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
 									dignissim.</p>
 							</figcaption>
 						</figure>
@@ -164,10 +164,10 @@
 		</section>
 
 		<section class="testimonials section" id="testimonials">
-			<div class="container" style="--max-width: 101.5625rem">
-				<h2 class="clr-primary-500 ff-accent fs-700 text-center">What our clients are saying about us</h2>
+			<div class="container">
+				<h2 class="clr-primary-500 ff-accent fs-700 text-center margin-block-end-48">What our clients are saying about us</h2>
 
-				<div class="even-columns">
+				<div class="even-columns | text-center clr-neutral-400">
 					<div class="card | box-shadow-1">
 						<picture>
 							<source srcset="/assets/img/testimonial-01.avif" type="image/avif">
@@ -183,16 +183,16 @@
 							</p>
 						</div>
 						<div class="testimonial__footer | padding-16 bg-neutral-200">
-							<p class="fs-500 clr-accent-500">John Deer</p>
+							<p class="fs-500 clr-primary-500">John Deer</p>
 							<p>Manager at FoodCo.</p>
 						</div>
 					</div>
 
 					<div class="card | box-shadow-1">
 						<picture>
-							<source srcset="/assets/img/testimonial-01.avif" type="image/avif">
-							<source srcset="/assets/img/testimonial-01.webp" type="image/webp">
-							<img src="/assets/img/testimonial-01.jpg" alt="A man standing outside, smiling">
+							<source srcset="/assets/img/testimonial-02.avif" type="image/avif">
+							<source srcset="/assets/img/testimonial-02.webp" type="image/webp">
+							<img src="/assets/img/testimonial-02.jpg" alt="A woman standing outside, smiling">
 						</picture>
 						<div class="card__body">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
@@ -203,16 +203,16 @@
 							</p>
 						</div>
 						<div class="testimonial__footer | padding-16 bg-neutral-200">
-							<p class="fs-500 clr-accent-500">John Deer</p>
+							<p class="fs-500 clr-primary-500">John Deer</p>
 							<p>Manager at FoodCo.</p>
 						</div>
 					</div>
 
 					<div class="card | box-shadow-1">
 						<picture>
-							<source srcset="/assets/img/testimonial-01.avif" type="image/avif">
-							<source srcset="/assets/img/testimonial-01.webp" type="image/webp">
-							<img src="/assets/img/testimonial-01.jpg" alt="A man standing outside, smiling">
+							<source srcset="/assets/img/testimonial-03.avif" type="image/avif">
+							<source srcset="/assets/img/testimonial-03.webp" type="image/webp">
+							<img src="/assets/img/testimonial-03.jpg" alt="A woman standing outside, eating sandwish">
 						</picture>
 						<div class="card__body">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas
@@ -223,7 +223,7 @@
 							</p>
 						</div>
 						<div class="testimonial__footer | padding-16 bg-neutral-200">
-							<p class="fs-500 clr-accent-500">John Deer</p>
+							<p class="fs-500 clr-primary-500">John Deer</p>
 							<p>Manager at FoodCo.</p>
 						</div>
 					</div>
@@ -234,7 +234,7 @@
 		</section>
 	</main>
 	<footer class="primary-footer section | bg-neutral-900 clr-neutral-100 text-center flow">
-		<div class="container">
+		<div class="container | flow">
 			<p class="fw-bold">Homecooked mealsdelivered straight to your door</p>
 			<p>©2022 Persronal Chef Services</p>
 			<p>555 Boulevard Anywhere, Montreal, Quebec, J1S 1S9 | 123-555-1234</p>
